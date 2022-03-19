@@ -1,0 +1,117 @@
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+    color: white;
+    background-image: url(images/freedom.jpg);
+    filter: grayscale(25%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    position: relative;
+}
+
+.product-overview__title {
+    position: absolute;
+    bottom: 50px;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-title {
+    color: aqua;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.main {
+    display: inline-block;
+}
+
+.plan,
+.core--features__item {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 5px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.plan__annotation {
+    background-color: white;
+    color: #0e4f0e;
+    display: inline-block;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.2);
+}
+
+.plan__title {
+    color: #0e4f0e;
+}
+
+.plan__price {
+    color: rgb(133, 133, 133);
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f0e;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__features li {
+    padding-bottom: 5px;
+}
+
+.core--features {
+    margin-top: 30px;
+    height: 350px;
+    background: #ff1b68;
+    text-align: center;
+}
+
+.core--features__item .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: rgb(241, 210, 235);
+    margin: auto;
+    padding: 25px;
+}
+
+.core--features__item {
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.core--features__item p {
+    font-family: 'Montserrat', sans-serif;
+}
